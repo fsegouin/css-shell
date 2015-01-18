@@ -1,0 +1,62 @@
+.fake-browser-ui {
+  max-width: 600px;
+  min-height: 100px;
+  border-radius: 3px;
+  background: #dad6da;
+  display: block;
+  position: relative;
+  margin: auto;
+}
+
+.fake-browser-ui .frame {
+  position: absolute;
+  top: 7px;
+}
+
+.fake-browser-ui .content {
+  min-height: 90px;
+    min-width: 600px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  background: #002b36;
+  display: inline-block;
+}
+
+.fake-browser-ui .content p {
+  text-align: left;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 16px;
+  line-height: 130%;
+  margin: 16px;
+  color: #839496;
+}
+
+.fake-browser-ui .content .command {
+  color: #859900;
+}
+
+.fake-browser-ui .content .link {
+  text-decoration: underline;
+  color: #b58900;
+}
+
+.fake-browser-ui .button {
+  height: 12px;
+  width: 12px;
+  border-radius: 12px;
+  float: left;
+  margin: 0 0 8px 8px;
+}
+
+.fake-browser-ui .button.red {
+  background-color: #ff625e;
+  border: 1px solid #ea4745;
+}
+.fake-browser-ui .button.yellow {
+  background-color: #ffbf45;
+  border: 1px solid #e6a139;
+}
+.fake-browser-ui .button.green {
+  background-color: #00cd4e;
+  border: 1px solid #13ad3a;
+}
